@@ -13,6 +13,11 @@
 		24369ED61E47426900129133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24369ED41E47426900129133 /* Main.storyboard */; };
 		24369ED81E47426900129133 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24369ED71E47426900129133 /* Assets.xcassets */; };
 		24369EDB1E47426900129133 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24369ED91E47426900129133 /* LaunchScreen.storyboard */; };
+		24369EE71E4743E000129133 /* EHPracticeWordCardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 24369EE31E4743E000129133 /* EHPracticeWordCardLayout.m */; };
+		24369EE81E4743E000129133 /* EHPracticeWordCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24369EE51E4743E000129133 /* EHPracticeWordCardView.m */; };
+		24369EE91E4743E000129133 /* EHPracticeWordCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24369EE61E4743E000129133 /* EHPracticeWordCardView.xib */; };
+		24369EED1E4744D000129133 /* EHPracticeWordCardViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24369EEB1E4744D000129133 /* EHPracticeWordCardViewCell.m */; };
+		24369EEE1E4744D000129133 /* EHPracticeWordCardViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24369EEC1E4744D000129133 /* EHPracticeWordCardViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,14 @@
 		24369ED71E47426900129133 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24369EDA1E47426900129133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24369EDC1E47426900129133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24369EE21E4743E000129133 /* EHPracticeWordCardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHPracticeWordCardLayout.h; sourceTree = "<group>"; };
+		24369EE31E4743E000129133 /* EHPracticeWordCardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHPracticeWordCardLayout.m; sourceTree = "<group>"; };
+		24369EE41E4743E000129133 /* EHPracticeWordCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHPracticeWordCardView.h; sourceTree = "<group>"; };
+		24369EE51E4743E000129133 /* EHPracticeWordCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHPracticeWordCardView.m; sourceTree = "<group>"; };
+		24369EE61E4743E000129133 /* EHPracticeWordCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHPracticeWordCardView.xib; sourceTree = "<group>"; };
+		24369EEA1E4744D000129133 /* EHPracticeWordCardViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EHPracticeWordCardViewCell.h; sourceTree = "<group>"; };
+		24369EEB1E4744D000129133 /* EHPracticeWordCardViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EHPracticeWordCardViewCell.m; sourceTree = "<group>"; };
+		24369EEC1E4744D000129133 /* EHPracticeWordCardViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EHPracticeWordCardViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +76,14 @@
 				24369ED11E47426900129133 /* ViewController.h */,
 				24369ED21E47426900129133 /* ViewController.m */,
 				24369ED41E47426900129133 /* Main.storyboard */,
+				24369EE21E4743E000129133 /* EHPracticeWordCardLayout.h */,
+				24369EE31E4743E000129133 /* EHPracticeWordCardLayout.m */,
+				24369EE41E4743E000129133 /* EHPracticeWordCardView.h */,
+				24369EE51E4743E000129133 /* EHPracticeWordCardView.m */,
+				24369EE61E4743E000129133 /* EHPracticeWordCardView.xib */,
+				24369EEA1E4744D000129133 /* EHPracticeWordCardViewCell.h */,
+				24369EEB1E4744D000129133 /* EHPracticeWordCardViewCell.m */,
+				24369EEC1E4744D000129133 /* EHPracticeWordCardViewCell.xib */,
 				24369ED71E47426900129133 /* Assets.xcassets */,
 				24369ED91E47426900129133 /* LaunchScreen.storyboard */,
 				24369EDC1E47426900129133 /* Info.plist */,
@@ -110,6 +131,7 @@
 				TargetAttributes = {
 					24369EC71E47426900129133 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W22828H56U;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,8 +159,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24369EE91E4743E000129133 /* EHPracticeWordCardView.xib in Resources */,
 				24369EDB1E47426900129133 /* LaunchScreen.storyboard in Resources */,
 				24369ED81E47426900129133 /* Assets.xcassets in Resources */,
+				24369EEE1E4744D000129133 /* EHPracticeWordCardViewCell.xib in Resources */,
 				24369ED61E47426900129133 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +175,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				24369ED31E47426900129133 /* ViewController.m in Sources */,
+				24369EE71E4743E000129133 /* EHPracticeWordCardLayout.m in Sources */,
 				24369ED01E47426900129133 /* AppDelegate.m in Sources */,
 				24369ECD1E47426900129133 /* main.m in Sources */,
+				24369EED1E4744D000129133 /* EHPracticeWordCardViewCell.m in Sources */,
+				24369EE81E4743E000129133 /* EHPracticeWordCardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +299,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W22828H56U;
 				INFOPLIST_FILE = UICollectionViewCellWidthPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ws.test.UICollectionViewCellWidthPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,7 +312,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W22828H56U;
 				INFOPLIST_FILE = UICollectionViewCellWidthPage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ws.test.UICollectionViewCellWidthPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +340,7 @@
 				24369EE11E47426900129133 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

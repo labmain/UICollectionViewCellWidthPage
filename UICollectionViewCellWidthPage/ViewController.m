@@ -7,16 +7,17 @@
 //
 
 #import "ViewController.h"
-
+#import "EHPracticeWordCardView.h"
 @interface ViewController ()
-
+@property (nonatomic, strong) EHPracticeWordCardView *wordCardView;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    [self.view addSubview:self.wordCardView];
+    self.wordCardView.frame = CGRectMake(0, 64, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height);
 }
 
 
@@ -25,5 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+- (EHPracticeWordCardView *)wordCardView {
+    if(_wordCardView == nil) {
+        _wordCardView = [[[NSBundle mainBundle] loadNibNamed:@"EHPracticeWordCardView" owner:nil options:nil] firstObject];
+    }
+    return _wordCardView;
+}
 @end
