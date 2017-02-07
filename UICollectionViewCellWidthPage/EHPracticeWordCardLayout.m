@@ -9,14 +9,6 @@
 #import "EHPracticeWordCardLayout.h"
 
 @implementation EHPracticeWordCardLayout
-//- (void)awakeFromNib {
-//    [super awakeFromNib];
-//    self.itemSize = CGSizeMake(75.0, 75.0);
-//    self.minimumInteritemSpacing = 10.0;
-//    self.minimumLineSpacing = 10.0;
-//    self.scrollDirection = UICollectionViewScrollDirectionHorizontal;
-//    self.sectionInset = UIEdgeInsetsMake(10.0, 10.0, 10.0, 10.0);
-//}
 
 - (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)offset
                                  withScrollingVelocity:(CGPoint)velocity {

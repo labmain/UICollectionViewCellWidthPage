@@ -8,10 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@class EHWordVM;
 @interface EHPracticeWordCardViewCell : UICollectionViewCell
 
-
-- (void)setWordVM:(EHWordVM *)wordVM WithUnitCount:(NSInteger)unitCount withIndexPath:(NSIndexPath *)indexPath;
 - (void)setIndexPath:(NSIndexPath *)indexPath;
 @end

@@ -28,47 +28,6 @@
                     <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YiZ-V0-cj1" userLabel="词义检测">
-                    <rect key="frame" x="285" y="330" width="70" height="56"/>
-                    <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EHWord_GoToCheck_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="x37-j5-VsG">
-                            <rect key="frame" x="22" y="0.0" width="27" height="27"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="27" id="erm-ig-TCj"/>
-                                <constraint firstAttribute="height" constant="27" id="hG1-Vv-UtT"/>
-                            </constraints>
-                        </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="词义检测" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cyN-j8-aNL">
-                            <rect key="frame" x="0.0" y="35" width="70" height="21"/>
-                            <constraints>
-                                <constraint firstAttribute="width" constant="70" id="Ama-2b-VmL"/>
-                                <constraint firstAttribute="height" constant="21" id="jVq-jL-vY8"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                            <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    <constraints>
-                        <constraint firstItem="x37-j5-VsG" firstAttribute="bottom" secondItem="cyN-j8-aNL" secondAttribute="top" constant="-8" id="9qd-Vg-9lK"/>
-                        <constraint firstItem="cyN-j8-aNL" firstAttribute="leading" secondItem="YiZ-V0-cj1" secondAttribute="leading" id="H6b-tU-uNq"/>
-                        <constraint firstItem="cyN-j8-aNL" firstAttribute="centerX" secondItem="x37-j5-VsG" secondAttribute="centerX" id="TBl-ry-dmm"/>
-                        <constraint firstAttribute="bottom" secondItem="cyN-j8-aNL" secondAttribute="bottom" id="ZCD-zd-mNh"/>
-                        <constraint firstItem="x37-j5-VsG" firstAttribute="top" secondItem="YiZ-V0-cj1" secondAttribute="top" id="uIi-eT-Mee"/>
-                        <constraint firstAttribute="trailing" secondItem="cyN-j8-aNL" secondAttribute="trailing" id="zVM-Cq-0bH"/>
-                    </constraints>
-                </view>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome_line_up" translatesAutoresizingMaskIntoConstraints="NO" id="sh1-LW-nSJ">
-                    <rect key="frame" x="315" y="0.0" width="60" height="120"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="60" id="F9Q-Hc-NEj"/>
-                        <constraint firstAttribute="height" constant="120" id="VUm-1x-vlK"/>
-                    </constraints>
-                </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome_line_down" translatesAutoresizingMaskIntoConstraints="NO" id="ZTh-bk-RjD">
-                    <rect key="frame" x="0.0" y="383" width="60" height="120"/>
-                </imageView>
                 <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="lvv-5X-f6s">
                     <rect key="frame" x="0.0" y="112" width="375" height="491"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -88,34 +47,20 @@
             <constraints>
                 <constraint firstItem="lvv-5X-f6s" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="491/603" id="00L-9L-7lG"/>
                 <constraint firstItem="lvv-5X-f6s" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2hl-uQ-ugj"/>
-                <constraint firstAttribute="trailing" secondItem="YiZ-V0-cj1" secondAttribute="trailing" constant="20" id="B81-4s-mG9"/>
-                <constraint firstAttribute="bottom" secondItem="ZTh-bk-RjD" secondAttribute="bottom" constant="100" id="Btq-h9-rAL"/>
                 <constraint firstAttribute="bottom" secondItem="lvv-5X-f6s" secondAttribute="bottom" id="F8X-Uy-0Ym"/>
                 <constraint firstItem="exo-Z4-IOe" firstAttribute="top" secondItem="40K-kg-sOX" secondAttribute="bottom" constant="12" id="GTQ-67-e5J"/>
                 <constraint firstItem="40K-kg-sOX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="JYT-cR-CY1"/>
-                <constraint firstAttribute="trailing" secondItem="sh1-LW-nSJ" secondAttribute="trailing" id="NDJ-jw-HGI"/>
-                <constraint firstItem="sh1-LW-nSJ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="R6g-JE-gnM"/>
-                <constraint firstItem="YiZ-V0-cj1" firstAttribute="centerY" secondItem="lvv-5X-f6s" secondAttribute="centerY" id="URX-nd-rs4"/>
                 <constraint firstItem="40K-kg-sOX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="24" id="hi2-0k-9Dw"/>
-                <constraint firstItem="ZTh-bk-RjD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="ht0-ou-VpG"/>
                 <constraint firstItem="exo-Z4-IOe" firstAttribute="leading" secondItem="40K-kg-sOX" secondAttribute="leading" id="nfk-N7-I2R"/>
                 <constraint firstAttribute="trailing" secondItem="lvv-5X-f6s" secondAttribute="trailing" id="ymE-LP-SeE"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="collectionView" destination="lvv-5X-f6s" id="RAP-Gl-tqj"/>
-                <outlet property="lineDownImageView" destination="ZTh-bk-RjD" id="Ik2-0v-PXD"/>
-                <outlet property="lineUPImageView" destination="sh1-LW-nSJ" id="PKE-a7-vKq"/>
                 <outlet property="titleLabel" destination="40K-kg-sOX" id="r8M-V6-QUt"/>
                 <outlet property="unitProgressLabel" destination="exo-Z4-IOe" id="3iF-p3-nvY"/>
-                <outlet property="wordCheckView" destination="YiZ-V0-cj1" id="dxZ-tR-Ulo"/>
             </connections>
             <point key="canvasLocation" x="34.5" y="54.5"/>
         </view>
     </objects>
-    <resources>
-        <image name="EHWord_GoToCheck_Icon" width="27" height="27"/>
-        <image name="welcome_line_down" width="60" height="120"/>
-        <image name="welcome_line_up" width="60" height="120"/>
-    </resources>
 </document>
